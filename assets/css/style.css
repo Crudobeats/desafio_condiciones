@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos Imagen */
+.img-img {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+.tt{
+    font-size: 15px;
+    padding: 20px;
+}
+
+#image-click{
+    padding: 1px;
+    height: 400px;
+    cursor: pointer;
+}
+
+#image-click.addBorder{
+    border: 2px solid red;
+}
+
+/* Estilos Stickers */
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sticker img {
+    width: 200px;
+    height: auto;
+}
+
+.stickers {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#info {
+    padding-top: 30px;
+    font-weight: bold;
+    color: brown;
+}
+
+/* Estilos Password */
+
+.selects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pass {
+    padding: 20px;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.button {
+    padding: 20px;
+}
+
+.ad {
+    padding: 20px;
+    color: brown;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
